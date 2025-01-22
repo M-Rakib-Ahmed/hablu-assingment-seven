@@ -6,11 +6,36 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Navbar from './components/Navbar.jsx';
+import About from './components/About.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className='text-4xl btn'>Hello world!</div>,
+    element: <Navbar></Navbar>,
+    children:[
+      {path: "aboutus",
+        element:<About></About>
+
+      },
+      {
+        path: "pricing",
+        element:<About></About>
+
+      },
+      {
+        path: "customers",
+        element:<About></About>
+
+      },
+      {
+        path: "solutions",
+        element:<About></About>
+
+      },
+
+    ]
   },
+  
 ]);
 
 createRoot(document.getElementById('root')).render(
