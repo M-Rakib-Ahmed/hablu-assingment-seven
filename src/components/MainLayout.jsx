@@ -5,6 +5,8 @@ import Hero from "./Hero";
 import OurTrusted from "./OurTrusted";
 import Card from "./Card";
 import TraniSection from "./TraniSection";
+import Hero2 from "./Hero2";
+import AllocateSection from "./AllocateSection";
 
 
 const MainLayout = () => {
@@ -16,6 +18,8 @@ const MainLayout = () => {
            <OurTrusted ></OurTrusted>
            <Card></Card>
            <TraniSection></TraniSection>
+           <Hero2></Hero2>
+           <AllocateSection></AllocateSection>
           
            {/* footer */}
            <Footer></Footer>
