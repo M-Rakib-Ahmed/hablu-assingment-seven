@@ -2,12 +2,12 @@
 
 const EmbraceSection = () => {
     return (
-        <div>
-          <h3>get started</h3>  
-          <h2>embrace the new era of outbound.</h2>
+        <div className="mt-20 text-white text-center">
+          <h3 className="uppercase mb-5">get started</h3>  
+          <h2 className="capitalize text-2xl mb-5">embrace the new era of outbound.</h2>
             <p>Wizia lets you train, activate, and optimize aiDRs.
                 Take your outbound to new levels of performance and efficiency.</p>
-            <button>Sign Up for the Beta</button>
+            <button className="btn btn-error text-white mt-5">Sign Up for the Beta</button>
         </div>
     );
 };
