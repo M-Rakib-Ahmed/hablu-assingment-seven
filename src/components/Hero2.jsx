@@ -20,7 +20,7 @@ const Hero2 = () => {
                     </div>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide1" className="btn btn-circle">❮</a>
-                    <p className='text-white text-center'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <br />
+                    <p className='text-white text-center lg:text-3xl'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br />vulputate libero et velit interdum, adipiscing elit ac aliquet odio mattis.</p> <br />
                         <a href="#slide3" className="btn btn-circle">❯</a>
                     </div>
                     <h2 className= ' text-3xl absolute mt-[200px] text-[#0FF1F6]  ml-72 lg:ml-[600px]'>Jone Done</h2>
