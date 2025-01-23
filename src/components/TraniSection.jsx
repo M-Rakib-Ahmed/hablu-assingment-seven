@@ -6,7 +6,7 @@ const TraniSection = () => {
             <p className="font-serif text-2xl text-[#0DBFC4]">prefered email st|</p>
             <p className="mt-5">You’re in control. Train your aiDR on <br /> elements of your Marketing strategy.</p>
             <div>
-               <ul className="flex justify-center gap-20 mt-10">
+               <ul className="lg:flex justify-center lg:gap-20 mt-10">
                     <li className='flex items-center gap-2'>
                         <img className='size-4' src={voctor} alt="" />
                         Quick to ramp
@@ -19,7 +19,7 @@ const TraniSection = () => {
                     </li>
                 
                 </ul> 
-               <ul className="flex justify-center gap-20 mt-10">
+               <ul className="lg:flex justify-center gap-20 lg:mt-10">
                     <li className='flex items-center gap-2'>
                         <img className='size-4' src={voctor} alt="" />
                         Quick to scale up
