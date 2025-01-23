@@ -2,7 +2,7 @@ import { IoArrowForwardCircle } from "react-icons/io5";
 
 const EmbraceSection = () => {
     return (
-        <div className="mt-20 text-white text-center">
+        <div className="lg:mt-20 mt-5  pb-5 text-white text-center">
           <h3 className="uppercase mb-5">get started</h3>  
           <h2 className="capitalize text-2xl mb-5">embrace the new era of outbound.</h2>
             <p>Wizia lets you train, activate, and optimize aiDRs.
