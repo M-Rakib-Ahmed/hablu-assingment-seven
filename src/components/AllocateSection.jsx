@@ -7,21 +7,21 @@ const AllocateSection = () => {
                 <h2 className="lg:text-4xl mb-3">Allocate effort where your reps make an inpact.</h2>
                 <p>let us handle hte rest</p>
                 <p>keep your reps in the air --out in the field and on the phone <br /> where they can build relationships.</p>
-                <div className="lg:flex gap-5 mt-10 w-full">
-                    <div>
-                        <h2 className="text-3xl font-bold">32%
+                <div className="lg:flex lg:text-start text-center gap-5 mt-10 w-full ">
+                    <div className=' '>
+                        <h2 className="text-5xl font-bold">32%
                             
                         </h2>
                         <p className="text-[#5acade]">Improvement in  <br /> Open Rates</p>
                     </div>
                     <div>
-                        <h2 className="text-3xl font-bold">32%
+                        <h2 className="text-5xl font-bold">32%
                             
                         </h2>
                         <p className=" text-[#5acade]">Improvement in  <br /> Open Rates</p>
                     </div>
                     <div>
-                        <h2 className="text-3xl font-bold">32%
+                        <h2 className="text-5xl font-bold">32%
                             
                         </h2>
                         <p className="text-[#5acade]">Improvement in  <br /> Open Rates</p>
@@ -29,7 +29,7 @@ const AllocateSection = () => {
                 </div>
             </div>
             <div className='w-full'>
-              <img className='w-full h-full' src={all} alt="" />
+              <img className='w-full mt-5 rounded-md' src={all} alt="" />
             </div>
        </div>
     );
